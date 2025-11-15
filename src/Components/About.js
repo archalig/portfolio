@@ -16,7 +16,7 @@ const About = () => {
             I am a self-taught developer, and I am still actively looking for internships or opportunities in the tech sector.
             I'm currently working on projects that involve transforming data into easily-digestible, .<br/><br/>
             I am <b>open</b> to new collaborations or work where I can contribute and grow. Feel free to connect with me, links are in the footer.<br/>
-            Apart from coding I love to do photography, you can check out some of my shots here <a href="https://www.instagram.com/devansh_sahni_/?hl=en" target='_blank'>Instagram.</a>
+            Apart from coding I love to do photography, you can check out some of my shots here <a href="https://www.instagram.com/_aaachiii/?hl=en" target='_blank'>Instagram.</a>
           </p>
         </div>
 

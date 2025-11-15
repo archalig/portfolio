@@ -12,9 +12,9 @@ const About = () => {
           <h1 className='AboutTextHeading' >Get to <b>know</b> me!</h1>
           <p>
             Hi, my name is <b>Archie Aligsao</b> and I am from Cebu, Philippines.
-            I'm an <b>aspiring data engineer and web developer</b> a college  Statistics major pursuing <b>BTech in CSE</b>. <br/><br/>
-            I have done an internship as a <b>software developer</b> at GoalFi which is a fintech startup.
-            I love to create original projects with beautiful designs, you can check out some of my work in the projects section.<br/><br/>
+            I'm an <b>aspiring data engineer and web developer</b>, currently majoring in Statistics at the <b>Cebu Technological University - Main Campus</b>. <br/><br/>
+            I am a self-taught developer, and I am still actively looking for internships or opportunities in the tech sector.
+            I'm currently working on projects that involve transforming data into easily-digestible, .<br/><br/>
             I am <b>open</b> to new collaborations or work where I can contribute and grow. Feel free to connect with me, links are in the footer.<br/>
             Apart from coding I love to do photography, you can check out some of my shots here <a href="https://www.instagram.com/devansh_sahni_/?hl=en" target='_blank'>Instagram.</a>
           </p>

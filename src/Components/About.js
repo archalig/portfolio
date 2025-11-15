@@ -11,8 +11,8 @@ const About = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading' >Get to <b>know</b> me!</h1>
           <p>
-            Hi, my name is <b>Devansh Sahni</b> and I am from New Delhi, India.
-            I'm a <b>MERN stack web developer</b> and a final year college student pursuing <b>BTech in CSE</b>. <br/><br/>
+            Hi, my name is <b>Archie Aligsao</b> and I am from Cebu, Philippines.
+            I'm an <b>aspiring data engineer and web developer</b> a college  Statistics major pursuing <b>BTech in CSE</b>. <br/><br/>
             I have done an internship as a <b>software developer</b> at GoalFi which is a fintech startup.
             I love to create original projects with beautiful designs, you can check out some of my work in the projects section.<br/><br/>
             I am <b>open</b> to new collaborations or work where I can contribute and grow. Feel free to connect with me, links are in the footer.<br/>

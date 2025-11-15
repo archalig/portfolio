@@ -12,8 +12,8 @@ const Home = () => {
       <div className='HomePage'>
 
         <div className='HomeText'>
-          <h1>Hi There!</h1>
-          <h1>I'M <b>DEVANSH SAHNI</b></h1>
+          <h1>Hi there!</h1>
+          <h1>I'm <b>Archie Aligsao</b></h1>
           <Typed/>   
         </div>
 
@@ -29,8 +29,8 @@ const Home = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading'>Brief <b>introduction</b></h1>
           <p>
-            I love the process of changing a raw idea into a website or a product 
-            that impacts lives. 
+            I love the process of changing raw data into ideas and products 
+            that can impact lives. 
             I want to do work that challenges me as a developer & work that I can 
             be proud of.<br /><br />
             I am fluent in <b>C++</b> and know a bit of <b>Python</b> and am working on a few 

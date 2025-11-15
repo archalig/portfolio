@@ -29,13 +29,13 @@ const Home = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading'>Brief <b>introduction</b></h1>
           <p>
-            I love the process of changing raw data into ideas and products 
-            that can impact lives. 
-            I want to do work that challenges me as a developer & work that I can 
-            be proud of.<br /><br />
-            I am fluent in <b>C++</b> and know a bit of <b>Python</b> and am working on a few 
-            projects in the <b>MERN</b> stack.<br />
-            I plan to learn <b>Next.js</b>, <b>Three.js</b> and<b> Typescript</b> in the near future. <br /><br />
+            As an aspiring data engineer, I love the process of changing raw data 
+            into ideas that can have a positive impact on people's lives. 
+            As a lifelong learner, I feel proudest when working on things that 
+            challenges me as a person.<br /><br />
+            I am fluent in <b>Python</b>, <b>R</b>, <b>C</b> and know a bit of <b>SQL</b>. As of now,
+            I am actively learning projects in the <b>MERN</b> stack.<br />
+            In addition, I plan to learn <b>Next.js</b>, <b>Three.js</b> and<b> Typescript</b> in the near future. <br /><br />
             Also, I love <b>coffee</b> <CiCoffeeCup style={{scale:"1.5", rotate:"15deg"}}/>   
           </p>
         </div>

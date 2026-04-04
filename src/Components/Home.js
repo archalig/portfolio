@@ -4,7 +4,6 @@ import SpaceBoy from "../LottieFiles/SpaceBoy.json";
 import Typed from "./Typed.js";
 import Tilt from 'react-parallax-tilt';
 import Avatar from '../images/Avatar.png';
-import {CiCoffeeCup} from "react-icons/ci";
 
 const Home = () => {
   return (
@@ -12,8 +11,8 @@ const Home = () => {
       <div className='HomePage'>
 
         <div className='HomeText'>
-          <h1>Hi There!</h1>
-          <h1>I'M <b>DEVANSH SAHNI</b></h1>
+          <h1>Hi there!</h1>
+          <h1>I'm <b>Archie Aligsao</b></h1>
           <Typed/>   
         </div>
 
@@ -27,16 +26,11 @@ const Home = () => {
 
       <div className='AboutPage'>
         <div className='AboutText'>
-          <h1 className='AboutTextHeading'>Brief <b>introduction</b></h1>
+          <h1 className='AboutTextHeading'><b>Who Am I?</b></h1>
           <p>
-            I love the process of changing a raw idea into a website or a product 
-            that impacts lives. 
-            I want to do work that challenges me as a developer & work that I can 
-            be proud of.<br /><br />
-            I am fluent in <b>C++</b> and know a bit of <b>Python</b> and am working on a few 
-            projects in the <b>MERN</b> stack.<br />
-            I plan to learn <b>Next.js</b>, <b>Three.js</b> and<b> Typescript</b> in the near future. <br /><br />
-            Also, I love <b>coffee</b> <CiCoffeeCup style={{scale:"1.5", rotate:"15deg"}}/>   
+            I'm just an ordinary guy who's obsessed with numbers and the insights we can uncover from them.<br /><br />
+            My skills are fluency in <b>Python</b>, <b>SQL</b>, <b>C++</b>. I am also proficient in data analysis tools, like <b>Excel</b>, <b>R</b>, and <b>Power BI</b>. In the future, I plan to learn <b>ETL pipelines</b> and expand my knowledge towards <b> Data Engineering</b>. <br /><br />
+            I also have a deep love for coffee!!!
           </p>
         </div>
         <Tilt>

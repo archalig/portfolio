@@ -1,6 +1,5 @@
 import React from 'react';
 
-import { CgCPlusPlus } from "react-icons/cg";
 import { FaReact, FaGitAlt, FaGithub, FaNpm } from "react-icons/fa";
 import { DiJavascript1, DiNodejs, DiPython } from "react-icons/di";
 import { SiMongodb, SiVercel, SiPowerbi, SiPostgresql, SiTableau } from "react-icons/si";

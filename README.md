@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h2 align="center">Personal Portfolio <br/> <a target="_blank" href="https://archiealigsao.vercel.app/">Archie Aligsao</a></h2>
 
 <br/>

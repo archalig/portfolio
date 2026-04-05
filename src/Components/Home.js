@@ -1,44 +1,58 @@
-import React from 'react';
-import Lottie from  "lottie-react";
-import SpaceBoy from "../LottieFiles/SpaceBoy.json";
-import Typed from "./Typed.js";
-import Tilt from 'react-parallax-tilt';
-import Avatar from '../images/Avatar.png';
+import React from "react";
+import Typewriter from "typewriter-effect";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import { SiKaggle } from "react-icons/si";
+import "./Home.css";
 
 const Home = () => {
   return (
-    <div >
-      <div className='HomePage'>
+    <section className="hero-container">
 
-        <div className='HomeText'>
-          <h1>Hi there!</h1>
-          <h1>I'm <b>Archie Aligsao</b></h1>
-          <Typed/>   
-        </div>
+      <h1 className="hero-name">
+        ARCHIE ALIGSAO
+      </h1>
 
-        <Lottie 
-          className="illustration" 
-          animationData={SpaceBoy} 
-          loop={true} 
+      <h2 className="hero-typing">
+        <Typewriter
+          options={{
+            strings: [
+              "Part-Time Statistician",
+              "Data Analyst",
+              "Full-Time Learner"
+            ],
+            autoStart: true,
+            loop: true,
+          }}
         />
-        
+      </h2>
+
+      {/* ICON BUTTONS */}
+      <div className="hero-buttons">
+        <a href="https://www.linkedin.com/in/archiealigsao/" target="_blank" rel="noreferrer">
+          <div className="hero-icon"><FaLinkedin /></div>
+        </a>
+
+        <a href="https://www.kaggle.com/aaachiii" target="_blank" rel="noreferrer">
+          <div className="hero-icon"><SiKaggle /></div>
+        </a>
+
+        <a href="https://github.com/archalig" target="_blank" rel="noreferrer">
+          <div className="hero-icon"><FaGithub /></div>
+        </a>
       </div>
 
-      <div className='AboutPage'>
-        <div className='AboutText'>
-          <h1 className='AboutTextHeading'><b>Who Am I?</b></h1>
-          <p>
-            I'm just an ordinary guy who's obsessed with numbers and the insights we can uncover from them.<br /><br />
-            My skills are fluency in <b>Python</b>, <b>SQL</b>, <b>C++</b>. I am also proficient in data analysis tools, like <b>Excel</b>, <b>R</b>, and <b>Power BI</b>. In the future, I plan to learn <b>ETL pipelines</b> and expand my knowledge towards <b> Data Engineering</b>. <br /><br />
-            I also have a deep love for coffee!!!
-          </p>
-        </div>
-        <Tilt>
-          <img className='Avatar' src={Avatar} alt="" />
-        </Tilt>
+      {/* CONTACT CTA */}
+      <div className="hero-contact">
+        <a href="mailto:archie.a.aligsao@gmail.com">
+          <button className="contact-btn">
+            <FaEnvelope style={{ marginRight: "8px" }} />
+            Contact Me
+          </button>
+        </a>
       </div>
-    </div>
-  )
-}
 
-export default Home
+    </section>
+  );
+};
+
+export default Home;

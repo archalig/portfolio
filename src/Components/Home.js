@@ -16,8 +16,8 @@ const Home = () => {
         <Typewriter
           options={{
             strings: [
-              "Part-Time Statistician",
               "Data Analyst",
+              "Part-Time Statistician",
               "Full-Time Learner"
             ],
             autoStart: true,
